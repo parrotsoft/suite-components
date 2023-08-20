@@ -24,3 +24,12 @@ Route::get('/', function () {
     ]);
 });
 ```
+
+### Screenshot
+
+![Rendering](public/rendering.jpeg)
+
+References:
+- [Wikipedia](https://es.wikipedia.org/wiki/Interfaz_fluida).
+
+

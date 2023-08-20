@@ -29,7 +29,7 @@ Route::get('/', function () {
                 ->value('lopezarizamiguel@gmai.com'),
             TextField::build()
                 ->label('Telefono')
-                ->value('3015575931')
+                ->value('3015575900')
         ])->render();
 
     return view('welcome', [
