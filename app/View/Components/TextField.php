@@ -30,6 +30,7 @@ class TextField extends Component
     {
         return new self();
     }
+
     public function render(): View|Closure|string
     {
         return view('components.text-field', [

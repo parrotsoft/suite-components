@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\View\Components\{Card, TextField};
+use App\View\Components\{Card, InputPhone, InputText, TextField};
 
 /*
 |--------------------------------------------------------------------------
@@ -29,7 +29,13 @@ Route::get('/', function () {
                 ->value('lopezarizamiguel@gmai.com'),
             TextField::build()
                 ->label('Telefono')
-                ->value('3015575900')
+                ->value('3015575900'),
+            InputText::build()
+                ->name('name')
+                ->value('Miguel'),
+            InputPhone::build()
+                ->name('phone')
+                ->value('3015575931')
         ])->render();
 
     return view('welcome', [
